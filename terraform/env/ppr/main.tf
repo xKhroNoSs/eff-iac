@@ -16,4 +16,5 @@ resource "google_project" "my_project" {
   name       = "EFFICOM-IAC"
   project_id = "${var.project}-${random_string.lower.result}"
   billing_account = var.billing_account
+  auto_create_network = false
 }
