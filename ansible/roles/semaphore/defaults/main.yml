@@ -1,0 +1,14 @@
+---
+# Required vars
+#semaphore_admin_user: admin
+#semaphore_admin_password: admin
+#semaphore_admin_email:
+#semaphore_url:
+
+semaphore_version: 2.9.75
+semaphore_home: /opt/ansible
+semaphore_user: ansible
+semaphore_config_file: config.json
+semaphore_port: 3000
+
+...

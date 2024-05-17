@@ -1,0 +1,10 @@
+- hosts: semaphore
+  become: true
+  roles:
+    - role: geerlingguy.ansible
+      tags: ansible
+    - role: geerlingguy.mysql
+      tags: mysql
+    - role: semaphore
+      tags: semaphore
+#  tasks:

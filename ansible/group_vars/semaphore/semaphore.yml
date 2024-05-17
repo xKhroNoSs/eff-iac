@@ -1,0 +1,9 @@
+---
+# See defaults in role
+
+semaphore_admin_user: admin
+#semaphore_admin_password: SEE vault.yaml
+semaphore_admin_email: nowacki@posteo.net
+semaphore_url: https://semaphore.nowacki.ovh
+
+...

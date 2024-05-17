@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  description: "Semaphore installation"
+  role_name: semaphore
+  namespace: khronoss
+  author: "Hugo Nowacki"
+  license: MIT
+  min_ansible_version: "2.10"
+  platforms:
+    - name: Debian
+      versions:
+        - bookworm

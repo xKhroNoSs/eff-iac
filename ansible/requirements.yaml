@@ -1,0 +1,5 @@
+# ansible-galaxy install -r requirements.yaml
+roles:
+  - name: geerlingguy.ansible
+  - name: geerlingguy.mysql
+
