@@ -7,5 +7,5 @@ mysql_databases:
 
 mysql_users:
   - name: u_semaphore
-    password: semaphore
+    password: semaphore # to put in vault later
     priv: semaphore.*:ALL
